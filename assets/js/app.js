@@ -1,7 +1,7 @@
 function op() {
     var correctPass = document.getElementById("password").value;
     if (correctPass == 1)
-        document.location = "../pages/second.html";
+        document.location = "./assets/pages/second.html";
     else {
         alert("invaild information")
     }
