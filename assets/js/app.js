@@ -1,18 +1,21 @@
+//main pass
 function op() {
-    var correctPass = document.getElementById("password").value;
-    if (correctPass == 1)
+    let correctPass = document.getElementById("password").value;
+    if (correctPass == 'случайности'|| correctPass == 'Случайности')
         document.location = "./assets/pages/second.html";
     else {
-        alert("invaild information")
+        alert(404)
     }
 }
-
+//pass 3
 function third() {
-    var correctPass = document.getElementById("password3").value;
-    if (correctPass == 'твори'||'Твори')
-    console.log(123);
-        // document.location = "../pages/second.html";
+    let correctPass = document.getElementById("password3").value;
+    console.log(correctPass);
+    if (correctPass == 'твори' || correctPass == 'Твори') {
+        console.log(123);
+        document.location = "../pages/second.html";
+    }
     else {
-        alert("invaild information")
+        alert(404)
     }
 }
