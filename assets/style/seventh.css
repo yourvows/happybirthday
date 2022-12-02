@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  background-image: url('../img/forfourthbg.JPG');
+  background-image: url('../img/forseventhbg.JPG');
   width: 100%;
   height: 700px;
   background-position: center;
@@ -26,11 +26,15 @@ body {
 
 p {
   font-weight: 400;
-    font-size: 17px;
-    color: white;
-    text-align: center;
-    margin: 0 36px;
-    padding-top: 198px;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  margin: 0 36px;
+  padding-top: 225px;
+}
+
+span {
+  color: red;
 }
 
 .confirm {
@@ -47,6 +51,7 @@ p {
 }
 
 button {
+  margin: 15px 0;
   width: 85px;
   height: 42px !important;
   border: none;
