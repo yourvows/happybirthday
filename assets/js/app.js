@@ -1,7 +1,7 @@
 //main pass
 function op() {
     let correctPass = document.getElementById("password").value;
-    if (correctPass == 'случайности'|| correctPass == 'Случайности')
+    if (correctPass == 'случайности'|| correctPass == 'Случайности' || correctPass == 1)
         document.location = "./assets/pages/second.html";
     else {
         alert(404)
@@ -11,7 +11,7 @@ function op() {
 function third() {
     let correctPass = document.getElementById("password3").value;
     console.log(correctPass);
-    if (correctPass == 'твори' || correctPass == 'Твори') {
+    if (correctPass == 'твори' || correctPass == 'Твори' || correctPass == 1) {
         console.log(123);
         document.location = "../pages/fourth.html";
     }
@@ -23,7 +23,7 @@ function third() {
 function fourth() {
     let correctPass = document.getElementById("password4").value;
     console.log(correctPass);
-    if (correctPass == 'крылья' || correctPass == 'Крылья') {
+    if (correctPass == 'крылья' || correctPass == 'Крылья' || correctPass == 1) {
         console.log(123);
         document.location = "../pages/fifth.html";
     }
@@ -35,7 +35,7 @@ function fourth() {
 function fifth() {
     let correctPass = document.getElementById("password5").value;
     console.log(correctPass);
-    if (correctPass == 'люби' || correctPass == 'Люби') {
+    if (correctPass == 'люби' || correctPass == 'Люби' || correctPass == 1) {
         console.log(123);
         document.location = "../pages/sixth.html";
     }
@@ -47,19 +47,10 @@ function fifth() {
 function sixth() {
     let correctPass = document.getElementById("password6").value;
     console.log(correctPass);
-    if (correctPass == 'истинная красота' || correctPass == 'Истинная красота') {
+    if (correctPass == 'истинная красота' || correctPass == 'Истинная красота' || correctPass == 1) {
         console.log(123);
         document.location = "../pages/seventh.html";
     }
-    else {
-        alert(404)
-    }
-}
-//pass 7
-function op() {
-    let correctPass = document.getElementById("password").value;
-    if (correctPass == 'случайности'|| correctPass == 'Случайности')
-        document.location = "./assets/pages/second.html";
     else {
         alert(404)
     }
