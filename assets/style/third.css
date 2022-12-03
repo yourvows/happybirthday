@@ -39,10 +39,9 @@ span {
 
 .confirm {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-
+margin-top: 80px;
 }
 
 .btn {
@@ -51,6 +50,7 @@ span {
 }
 
 button {
+  margin-left: 24px;
   width: 85px;
   height: 42px !important;
   border: none;
